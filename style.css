@@ -3,28 +3,26 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700;1,800;1,900&amp;display=swap');
 
-/*---header */
-/* Reset default margin and padding for the body and list elements */
 body, ul {
     margin: 0;
     padding: 0;
 }
 
-/* Style the header */
+
 header {
     background-color: #25A3D9;
     padding: px;
     text-align: center;
 }
 
-/* Style the h1 heading */
+
 header h1 {
     font-size: 36px;
     color: #333;
     margin-bottom: 10px;
 }
 
-/* Style the navigation menu */
+
 nav ul {
     list-style: none;
 }
@@ -102,7 +100,6 @@ img
 }
 
 
-/*-------------- Hero styling starts ------------*/
 .hero
 {
 	height: 100vh;
@@ -163,11 +160,7 @@ img
 	font-size: 0.9rem;
 	text-transform: uppercase;
 }
-/*-------------- Hero styling ends ------------*/
 
-
-
-/*-------------- About section styling start ---------*/
 .about .container
 {
 	padding: 3rem 1rem;
@@ -197,10 +190,7 @@ img
 	color: var(--third-color);
 	text-decoration: none;
 }
-/*-------------- About section styling end ---------*/
 
-
-/*-------------- Offer section styling start -----------*/
 .offer .container
 {
 	padding: 3rem 1rem;
@@ -241,10 +231,7 @@ img
 	font-style: italic;
 	text-align: center;
 }
-/*-------------- Offer section styling end -----------*/
 
-
-/*-------------- Testimonial section styling start ---------*/
 .testimonial .container
 {
 	padding: 2rem 1rem;
@@ -288,18 +275,14 @@ Min-height: 22vh;
 }
 .review-content p {
 	flex: 1;
-	max-width: 300px; /* Set a maximum width to avoid excessive stretching */
+	max-width: 300px;
   }
 .author-name
 {
 	font-size: 1.2rem;
 	font-style: italic;
 }
-/*-------------- Testimonial section styling end ---------*/
 
-
-
-/*-------------- Footer widget styling start -------------*/
 .footer-widget
 {
 	height: 60vh;
@@ -312,11 +295,7 @@ Min-height: 22vh;
 {
 	padding: 2rem 2rem;
 }
-/*-------------- Footer widget styling end -------------*/
 
-
-
-/*------------ copyright styling start -------------*/
 .footer-bottom
 {
 	background-color: #25A3D9;
@@ -337,12 +316,7 @@ Min-height: 22vh;
 	text-transform: uppercase;
 	font-style: italic;
 }
-/*------------ copyright styling end -------------*/
 
-
-/*------------------------------------------------------------*/
-/*---------------- For desktop screen styling ------------------*/
-/*------------------------------------------------------------*/
 @media screen and (min-width: 768px)
 {
 	.container
@@ -357,7 +331,7 @@ Min-height: 22vh;
 	}
 
 
-	/*---------- Hero section styling ------------*/
+	
 	.hero .container
 	{
 		padding: 2.5rem 5rem;
@@ -380,8 +354,6 @@ Min-height: 22vh;
 		font-size: 1.5rem;
 	}
 
-
-	/*--------------- About section --------------*/
 	.about .container
 	{
 		padding: 6rem 4rem;
@@ -409,7 +381,6 @@ Min-height: 22vh;
 	}
 
 
-	/*-------------- Offer section ----------*/
 	.offer .container
 	{
 		padding: 1rem 4rem;
@@ -433,7 +404,6 @@ Min-height: 22vh;
 		width: 100%;
 	}
 
-	/*-------------- Testimonial section --------------*/
 	.testimonial
 	{
 		/*margin: 2rem 0*/
@@ -457,8 +427,6 @@ Min-height: 22vh;
 		width: 100%;
 	}
 
-
-	/*--------------- Footer ---------------*/
 	.footer-widget
 	{
 		height: 70vh;
@@ -469,8 +437,6 @@ Min-height: 22vh;
 		padding: 6rem 4rem;
 	}
 
-
-	/*--------------- Footer bottom ----------------*/
 	.footer-bottom .container
 	{
 		padding: 2rem 4rem;
